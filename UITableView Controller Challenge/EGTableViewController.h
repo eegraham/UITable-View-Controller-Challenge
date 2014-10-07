@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EGTableViewController.h
 //  UITableView Controller Challenge
 //
 //  Created by Ellison Graham on 10/7/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface EGTableViewController : UITableViewController
 
 @end
-

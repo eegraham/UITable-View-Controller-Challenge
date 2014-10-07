@@ -5,6 +5,36 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "335699AE19E46F7C00A476CE"
+               BuildableName = "UITableView Controller Challenge.app"
+               BlueprintName = "UITableView Controller Challenge"
+               ReferencedContainer = "container:UITableView Controller Challenge.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "335699C719E46F7D00A476CE"
+               BuildableName = "UITableView Controller ChallengeTests.xctest"
+               BlueprintName = "UITableView Controller ChallengeTests"
+               ReferencedContainer = "container:UITableView Controller Challenge.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -12,7 +42,26 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "335699C719E46F7D00A476CE"
+               BuildableName = "UITableView Controller ChallengeTests.xctest"
+               BlueprintName = "UITableView Controller ChallengeTests"
+               ReferencedContainer = "container:UITableView Controller Challenge.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "335699AE19E46F7C00A476CE"
+            BuildableName = "UITableView Controller Challenge.app"
+            BlueprintName = "UITableView Controller Challenge"
+            ReferencedContainer = "container:UITableView Controller Challenge.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -23,6 +72,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "335699AE19E46F7C00A476CE"
+            BuildableName = "UITableView Controller Challenge.app"
+            BlueprintName = "UITableView Controller Challenge"
+            ReferencedContainer = "container:UITableView Controller Challenge.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -32,6 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "335699AE19E46F7C00A476CE"
+            BuildableName = "UITableView Controller Challenge.app"
+            BlueprintName = "UITableView Controller Challenge"
+            ReferencedContainer = "container:UITableView Controller Challenge.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
